@@ -1,0 +1,30 @@
+---
+title: "Quarto digital garden"
+date: "2023-11-18"
+categories: [digital garden]
+image: "image.jpg"
+#draft: yes
+---
+
+This is a post that will house notes on my experience learning to use Quarto.
+
+**Resources I have found useful:**
+
+-   [Quarto documentation](https://quarto.org/docs/websites/)
+-   [Bea Milz: Creating a blog with Quarto](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en)
+-   [Albert Rapp: The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide)
+-   [Silvia Canelón: Hello Quarto: Porting my Website from Hugo Apéro](https://silviacanelon.com/blog/2023-09-29-hello-quarto/)
+
+Things I need to do next:
+
+-   Edit about page
+-   Link datadrivencv to github repository (to host both pdf and html versions of resume)
+-   Redirect matthewmcclellan.com/resume to github/resume.html
+-   Create quarto blog repo on github
+    -   link project to repo
+    -   commit all updates
+    -   create netlify site
+    -   point netlify at quarto repo
+    -   redirect personal domain to netlify
+    -   done???
+-   Reformat /writing so text wraps around image

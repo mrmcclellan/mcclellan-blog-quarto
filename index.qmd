@@ -1,0 +1,22 @@
+---
+title: "About Me"
+image: avatar.png
+about:
+  template: solana
+  links:
+#    - icon: twitter
+#      text: Twitter
+#      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/matthew-mcclellan-zzz
+#    - icon: github
+#      text: Github
+#      href: https://github.com
+---
+
+Hello, I'm Matt McClellan. I'm a high-school English teacher living in Central Oregon.
+
+From 2016 through 2023 I taught in the Bay Area. Outside of school, I enjoyed participating in the soccer program at San Quentin State Prison. Check out the [San Quentin News](https://sanquentinnews.com/crawford-helps-sq-futbol-program-grow/) and [listen to Ear Hustle](https://www.earhustlesq.com/episodes/2021/11/17/yard-of-dreams) to learn more about sports and life inside the prison.
+
+Before my teaching career, I spent my whole life (except a one-year sojourn to Santa Barbara) in the Boston area. In a past life I worked in admin at Harvard and lived in glamorous Somerville, MA.
