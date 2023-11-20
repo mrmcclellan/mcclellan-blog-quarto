@@ -7,18 +7,11 @@
     "text": "Before my teaching career, I worked in a few jobs that allowed me to write for the web. All of these articles (and one project!) live in various corners of the internet, linked below.\n\nDigital history / data viz\n\n\nAs a grad student I created a project applying various digital humanities tools and approaches to do a “distant reading” of slave narratives in UNC’s “Documenting the American South” online library.\n\n\nTopic Modeling Equiano and the Slave Narrative Genre\n\n\n\nHarvard Kennedy School\nWhen I worked at the Kennedy School’s Ash Center for Democratic Governance and Innovation as a research assistant and writer for the Project on Municipal Innovation, I occasionally wrote for the Ash Center’s own website and other outlets, like Governing.\n\nFrom Comment Cards to Sentiment Mining\nWith Form Comes Function\nManaging for the Soul of the City\nRegulating Rideshares\nStretch Goals\n\nI also contributed reporting and writing to a few chapters in The Responsive City. And I designed the cover!\n\n\nHarvard Gazette\nWhen I worked for Harvard’s office of Public Affairs & Communications, I had the opportunity to write a few stories for the Harvard Gazette, mostly on the arts and culture beat.\n\nWhere art blends with activism\nSweeping gestures, divine power\nAn art exhibit replete with diversity\nSnapshots of the past\nA measure of redemption\nAward honors beloved mentor"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Quarto digital garden\n\n\n\n\n\n\n\ndigital garden\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "index.html",
@@ -28,11 +21,11 @@
     "text": "Hello, I’m Matt McClellan. I’m a high-school English teacher living in Central Oregon.\nFrom 2016 through 2023 I taught in the Bay Area. Outside of school, I enjoyed participating in the soccer program at San Quentin State Prison. Check out the San Quentin News and listen to Ear Hustle to learn more about sports and life inside the prison.\nBefore my teaching career, I spent my whole life (except a one-year sojourn to Santa Barbara) in the Boston area. In a past life I worked in admin at Harvard and lived in glamorous Somerville, MA."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Quarto digital garden\n\n\n\n\n\n\n\ndigital garden\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 15, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/learning-quarto-garden/quarto-garden.html",
@@ -42,10 +35,10 @@
     "text": "This is a post that will house notes on my experience learning to use Quarto.\nResources I have found useful:\n\nQuarto documentation\nBea Milz: Creating a blog with Quarto\nAlbert Rapp: The ultimate guide to starting a Quarto blog\nSilvia Canelón: Hello Quarto: Porting my Website from Hugo Apéro\n\nThings I need to do next:\n\nEdit about page\nLink datadrivencv to github repository (to host both pdf and html versions of resume)\nRedirect matthewmcclellan.com/resume to github/resume.html\nCreate quarto blog repo on github\n\nlink project to repo\ncommit all updates\ncreate netlify site\npoint netlify at quarto repo\nredirect personal domain to netlify\ndone???\n\nReformat /writing so text wraps around image"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nHarvard Graduate School of Education | Cambridge, MA\nEd.M. Teacher Education Program, Secondary English\nAmherst College | Amherst, MA"
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]

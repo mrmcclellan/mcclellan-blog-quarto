@@ -9,8 +9,8 @@ website:
         href: blog.qmd
       - text: Writing
         href: writing.qmd
-#      - text: Resume
-#        href: ????
+      - text: Resume
+        href: https://mrmcclellan.github.io/resume/
     right:
 #      - icon: github
 #        href: https://github.com/
