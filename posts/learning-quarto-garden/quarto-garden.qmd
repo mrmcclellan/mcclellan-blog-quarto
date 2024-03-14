@@ -14,4 +14,4 @@ This is a post that will house notes on my experience learning to use Quarto.
 -   [Bea Milz: Creating a blog with Quarto](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en)
 -   [Albert Rapp: The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide)
 -   [Silvia Canelón: Hello Quarto: Porting my Website from Hugo Apéro](https://silviacanelon.com/blog/2023-09-29-hello-quarto/)
--   Happy git with R
+-   [Happy git with R](https://happygitwithr.com)
