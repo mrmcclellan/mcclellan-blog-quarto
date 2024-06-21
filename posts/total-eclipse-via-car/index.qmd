@@ -1,0 +1,7 @@
+---
+title: "Total eclipse via car"
+date: "2024-06-04"
+categories: [photography, the great outdoors]
+image: "image.jpg"
+draft: yes
+---

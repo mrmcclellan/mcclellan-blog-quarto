@@ -1,0 +1,29 @@
+---
+title: "Tidy Tuesday: Campus Pride"
+date: "2024-06-21"
+categories: [rstats, tidytuesday]
+image: "tidy_pride_index.jpg"
+draft: no
+---
+
+Here is my first attempt at participating in #TidyTuesday. I followed the instructions on the [rfordatascience GitHub repository](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-06-11/readme.md "R4DS GitHub repository") to install the tidytuesdayR package and loaded the datasets for week 24. This week's data comes from the [Campus Pride Index](https://www.campusprideindex.org/).
+
+I was initially interested in visualizing patterns in school size and public vs. private status, but quickly noticed some oddities. I was exploring the data using histograms and noticed what appeared to be several high-population private schools, which is extremely unusual.
+
+![Histogram showing student populations by public status](hist_by_public.png){fig-alt="Histogram showing student populations by public status"}
+
+I dug into the data and found that Penn State was not classified as public...or private! I did a quick filter and there are 35 schools classified as neither public nor private. It looks like many community colleges are in here, which should all be public. Most of the others appear to be public, too (big land grant schools). There are a few private liberal arts schools on the smaller end (Colby, Bates, Swarthmore).
+
+![The 35 schools listed as neither public nor private](to_correct.png){fig-alt="The 35 schools listed as neither public nor private"}
+
+Jon, director of the Data Science Learning Community (which runs Tidy Tuesday), replied with some helpful information on the DSLC Slack:
+
+![Jon to the rescue (or, at least, to the clarification)](jon_replies.jpg){fig-alt="Jon answers my question about why schools are classified as neither public nor private"}
+
+Luckily this information is easily verifiable with some relatively easy searching. For now, I've gone ahead and used the dataset as-is. When I have some more time (and make some more progress in the R4DS book...) I'd like to re-run my exploratory analyses with a manually corrected dataset. Since this is a pretty substantial part of the sample, I'm interested in seeing how it might affect the picture of public vs. private school ratings.
+
+Finally, my plot! I installed the [ggtext package](https://wilkelab.org/ggtext/articles/introduction.html) to enable some light CSS and markdown formatting of the title (including nicer text-wrapping and embedding a color-coded keyword rather than adding a separate legend). I computed the median rating for each of the six community sizes, then called annotate() twice to create the median labels (once to plot the points, and again to place the strings).
+
+I tried to embed the full code used to generate the plot in this post...but ran into a truly frightening warning after test rendering this page a few times (You have been rate limited! Try again in an hour!), so I ran from my problems by using ggsave to produce a jpg of the plot. Later I'll figure out how to make my code accessible.
+
+![](tidy_pride_index.jpg){fig-alt="Violin plot showing the distribution of LGBTQ-inclusivity ratings by community size"}
