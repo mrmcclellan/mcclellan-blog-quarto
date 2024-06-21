@@ -18,7 +18,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Quarto digital garden\n\n\n\n\n\n\ndigital garden\n\n\n\n\n\n\n\n\n\nNov 18, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Tidy Tuesday: Campus Pride\n\n\n\n\n\n\nrstats\n\n\ntidytuesday\n\n\n\n\n\n\n\n\n\nJun 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAurora in Central Oregon\n\n\n\n\n\n\nthe great outdoors\n\n\nphotography\n\n\n\n\n\n\n\n\n\nJun 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto digital garden\n\n\n\n\n\n\ndigital garden\n\n\n\n\n\n\n\n\n\nNov 18, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/learning-quarto-garden/quarto-garden.html",
@@ -26,5 +26,19 @@
     "title": "Quarto digital garden",
     "section": "",
     "text": "This is a post that will house notes on my experience learning to use Quarto.\nResources I have found useful:\n\nQuarto documentation\nBea Milz: Creating a blog with Quarto [oh no, this link is dead!]\nAlbert Rapp: The ultimate guide to starting a Quarto blog\nSilvia Canelón: Hello Quarto: Porting my Website from Hugo Apéro\nHappy git with R"
+  },
+  {
+    "objectID": "posts/2024-06-20-campus-pride/index.html",
+    "href": "posts/2024-06-20-campus-pride/index.html",
+    "title": "Tidy Tuesday: Campus Pride",
+    "section": "",
+    "text": "Here is my first attempt at participating in #TidyTuesday. I followed the instructions on the rfordatascience GitHub repository to install the tidytuesdayR package and loaded the datasets for week 24. This week’s data comes from the Campus Pride Index.\nI was initially interested in visualizing patterns in school size and public vs. private status, but quickly noticed some oddities. I was exploring the data using histograms and noticed what appeared to be several high-population private schools, which is extremely unusual.\n\n\n\nHistogram showing student populations by public status\n\n\nI dug into the data and found that Penn State was not classified as public…or private! I did a quick filter and there are 35 schools classified as neither public nor private. It looks like many community colleges are in here, which should all be public. Most of the others appear to be public, too (big land grant schools). There are a few private liberal arts schools on the smaller end (Colby, Bates, Swarthmore).\n\n\n\nThe 35 schools listed as neither public nor private\n\n\nJon, director of the Data Science Learning Community (which runs Tidy Tuesday), replied with some helpful information on the DSLC Slack:\n\n\n\nJon to the rescue (or, at least, to the clarification)\n\n\nLuckily this information is easily verifiable with some relatively easy searching. For now, I’ve gone ahead and used the dataset as-is. When I have some more time (and make some more progress in the R4DS book…) I’d like to re-run my exploratory analyses with a manually corrected dataset. Since this is a pretty substantial part of the sample, I’m interested in seeing how it might affect the picture of public vs. private school ratings.\nFinally, my plot! I installed the ggtext package to enable some light CSS and markdown formatting of the title (including nicer text-wrapping and embedding a color-coded keyword rather than adding a separate legend). I computed the median rating for each of the six community sizes, then called annotate() twice to create the median labels (once to plot the points, and again to place the strings).\nI tried to embed the full code used to generate the plot in this post…but ran into a truly frightening warning after test rendering this page a few times (You have been rate limited! Try again in an hour!), so I ran from my problems by using ggsave to produce a jpg of the plot. Later I’ll figure out how to make my code accessible."
+  },
+  {
+    "objectID": "posts/2024-06-05-aurora/index.html",
+    "href": "posts/2024-06-05-aurora/index.html",
+    "title": "Aurora in Central Oregon",
+    "section": "",
+    "text": "The aurora borealis visible over the fields behind Sisters High School\n\n\nIn early May the aurora was visible here in Central Oregon, and I had some success seeing and shooting it from behind Sisters High School. These photos are straight-out-of-camera jpgs; I have tried processing some of the RAWs, but other than correcting for lens distortion and leveling the horizon, I haven’t yet got results I’m happy with.\n\n\n\nThe aurora dancing over the sprinklers in the foreground\n\n\nI only had one close call with the sprinklers, which you can see above. After sprinting to snatch my stuff, I setup my tripod behind home plate of the softball field. Even with the bright lights in the parking lot just behind me, I was stunned by how visible the aurora was - these photos make it appear much more saturated, but it was indeed clear to the naked eye.\n\n\n\nThe aurora shot from home plate, softball dugout in the foreground"
   }
 ]

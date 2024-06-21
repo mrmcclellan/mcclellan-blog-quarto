@@ -3,7 +3,7 @@ title: "Tidy Tuesday: Campus Pride"
 date: "2024-06-21"
 categories: [rstats, tidytuesday]
 image: "tidy_pride_index.jpg"
-draft: no
+draft: false
 ---
 
 Here is my first attempt at participating in #TidyTuesday. I followed the instructions on the [rfordatascience GitHub repository](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-06-11/readme.md "R4DS GitHub repository") to install the tidytuesdayR package and loaded the datasets for week 24. This week's data comes from the [Campus Pride Index](https://www.campusprideindex.org/).

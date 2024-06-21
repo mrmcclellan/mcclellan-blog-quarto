@@ -1,9 +1,9 @@
 ---
-title: "Aurora"
+title: "Aurora in Central Oregon"
 date: "2024-06-20"
 categories: [the great outdoors, photography]
 image: "aurora_01.jpg"
-draft: no
+draft: false
 ---
 
 ![The aurora borealis visible over the fields behind Sisters High School](aurora_01.jpg){fig-alt="The aurora borealis visible over the fields behind Sisters High School"}
